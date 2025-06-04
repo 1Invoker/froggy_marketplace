@@ -1,0 +1,13 @@
+.header{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content:center;
+    background-color: #54e041;
+}
+.header__menu{
+    display: flex;
+    gap: 30px;
+    margin: 30px;
+    
+}
