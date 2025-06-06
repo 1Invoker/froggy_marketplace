@@ -11,3 +11,29 @@
     margin: 30px;
     
 }
+.menu__button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    background-color: #0fa55f;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .menu__button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  .menu__button:active {
+    background-color: #004085;
+    transform: translateY(1px);
+  }
+  
+  .menu__button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
