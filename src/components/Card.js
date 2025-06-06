@@ -1,3 +1,5 @@
+import '../styles/Card.css'
+
 const Card = ({name, price , image, description}) => {
   return (
     <div className="product-card">
