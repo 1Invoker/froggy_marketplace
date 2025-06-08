@@ -1,12 +1,14 @@
-import '../styles/Card.css'
+import "../styles/Card.css";
 
-const Card = ({name, price , image, description}) => {
+const Card = ({ name, price, image, description }) => {
   return (
     <div className="product-card">
-        <img src= {image} alt = {name} className="product-card__image" />
-        <h2 className="product-card__name">{name}</h2>
+      <img src={image} alt={name} className="product-card__image" />
+      <h2 className="product-card__name">{name}</h2>
+      <div className="product-card__details">
         <span className="product-card__price">{price}</span>
         <div className="product-card__description">{description}</div>
+      </div>
     </div>
   );
 };
