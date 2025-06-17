@@ -1,9 +1,10 @@
 import React from 'react';
 import Card from './Card';
+import "../styles/CardList.css";
 
 const CardList = ({ products }) => {
   return (
-    <div className="product-list">
+    <div className="card-list">
       {products.map((product, index) => (
         <Card
           key={index}
