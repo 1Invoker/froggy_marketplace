@@ -2,4 +2,6 @@
     max-width: 1905px;
     display: flex;
     justify-content:space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
